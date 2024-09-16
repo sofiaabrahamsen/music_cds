@@ -2,7 +2,7 @@
 This is a mandatory assigntment on my computer science education.
 
 # Tools
-HTML5 / JavaScript
+HTML5 / CSS / JavaScript
 
 # Author
 Sofia Abrahamsen
