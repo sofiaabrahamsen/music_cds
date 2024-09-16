@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music CD Collection</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Music CDs</h1>
+    </header>
+
+    <main>
+        <section id="cd-form">
+            <form>
+                <div>
+                    <label for="author">Author</label>
+                    <input type="text" id="author" required>
+                </div>
+                <div>
+                    <label for="title">Title</label>
+                    <input type="text" id="title" required>
+                </div>
+                <div>
+                    <label for="year">Year</label>
+                    <input type="tel" id="year" required>
+                </div>
+                <button type="submit">Add</button>
+            </form>
+        </section>
+
+        <section id="cd-list">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Author</th>
+                        <th>Title</th>
+                        <th>Year</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!--created CD information here FYI -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

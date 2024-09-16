@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    header {
+        background-color: blue;
+        color: #fff;
+    }
+
+    /***********
+    *
+    *
+    * Styling for the label, input and button for the form elements
+    *
+    *
+    ***********/
+    #cd-form label {
+        display: inline-block;
+        width: 50px;
+        margin: 10px;
+    }
+
+    #cd-form input {
+        display: inline-block;
+        width: 93%;
+    }
+    
+    #cd-form div {
+        display: block; /* placing Author, Title and year on each line with both their label and input */
+        margin-bottom: 10px;
+    }
+
+    #cd-form button {
+        display: block;
+        color: blue;
+        width: 50px;
+        height: 40px;
+        margin-bottom: 10px;
+    }
+
+    /***********
+    *
+    *
+    * Styling for the list in the table
+    *
+    *
+    ***********/
+    #cd-list {
+        border: 1px solid blue;
+    }
+
+    #cd-list table {
+        width: 100%;
+    }
+
+    #cd-list th {
+        background-color: blue;
+        color: white;
+        padding: 10px;
+        text-align: left;
+    }
+
+    #cd-list td {
+        padding-left: 5px;
+        text-align: left;
+    }
+
+    #cd-list button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: grey;
+        font-size: 18px;
+    }
+    
+    #cd-list button::before {
+        content: "\f1f8"; /* Unicode for trash icon in FontAwesome */
+        font-family: FontAwesome;
+    }
+}
+
+
